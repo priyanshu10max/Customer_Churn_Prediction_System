@@ -1,5 +1,6 @@
 📊 Project: Customer Churn Prediction System 
 
+
 🔹 1. Problem Statement
 
 Businesses want to retain customers because acquiring new ones costs 5x more than retaining existing ones.
