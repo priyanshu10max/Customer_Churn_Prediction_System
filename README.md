@@ -8,18 +8,17 @@ We’ll build a machine learning system to predict whether a customer is likely 
 
 🔹 2. Dataset
 
-We’ll use the Telco Customer Churn Dataset (publicly available on Kaggle
-).
+We’ll use the Telco Customer Churn dataset from Kaggle.
 
-Features: Gender, SeniorCitizen, Partner, Dependents, Tenure, MonthlyCharges, TotalCharges, InternetService, Contract, PaymentMethod, etc.
+Features: gender, tenure, monthly_charges, contract_type, payment_method, internet_service, etc.
 
 Target: Binary Classification (Churn = Yes/No)
 
 🔹 3. Tech Stack
 
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost)
+Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 
-ML Models: Logistic Regression, Random Forest, XGBoost
+ML Models: Logistic Regression, Random Forest, Decision Tree Classifier
 
 Version Control: GitHub
 
@@ -29,9 +28,9 @@ Version Control: GitHub
 
 ✅ Step 1: Data Collection & Understanding
 
-✅ Step 2: Exploratory Data Analysis (EDA)
+✅ Step 2: Data Preprocessing
 
-✅ Step 3: Data Preprocessing (missing values, encoding, scaling)
+✅ Step 3: Exploratory Data Analysis (EDA)
 
 ✅ Step 4: Model Selection & Training
 
@@ -42,28 +41,19 @@ Version Control: GitHub
 ✅ Step 7: Model Serialization (Pickle/Joblib)
 
 
-🔹 5. Project Folder Structure
-
 customer-churn-prediction/
 │── data/
-
 │   └── Telco-Customer-Churn.csv
-
 │── notebooks/
-
 │   └── eda.ipynb
-
 │   └── model_training.ipynb
-
 │── src/
-
 │   ├── data_preprocessing.py
-
 │   ├── train_model.py
-
 │   ├── evaluate_model.py
-
 │   └── predict.py
+
+
 
 
 
