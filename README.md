@@ -45,7 +45,6 @@ Version Control: GitHub
 🔹 5. Project Folder Structure
 
 customer-churn-prediction/
-
 │── data/
 
 │   └── Telco-Customer-Churn.csv
