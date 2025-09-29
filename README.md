@@ -13,7 +13,7 @@ We’ll use the Telco Customer Churn Dataset (publicly available on Kaggle
 
 Features: Gender, SeniorCitizen, Partner, Dependents, Tenure, MonthlyCharges, TotalCharges, InternetService, Contract, PaymentMethod, etc.
 
-Target: Churn (Yes/No)
+Target: Binary Classification (Churn
 
 🔹 3. Tech Stack
 
@@ -21,11 +21,7 @@ Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost)
 
 ML Models: Logistic Regression, Random Forest, XGBoost
 
-Model Serving: FastAPI
 
-Deployment: AWS EC2 + Docker
-
-Visualization: Power BI / Streamlit (optional dashboard)
 
 🔹 4. Project Workflow
 
@@ -57,9 +53,16 @@ customer-churn-prediction/
 │   ├── train_model.py
 │   ├── evaluate_model.py
 │   └── predict.py
-│── app/
-│   ├── main.py  (FastAPI app)
-│   └── model.pkl
-│── Dockerfile
-│── requirements.txt
-│── README.md
+
+
+
+🔹 6. Business Impact from this project
+
+Early identification of potential churners
+
+Enables targeted retention campaigns → reduces revenue loss
+
+Improves customer lifetime value (CLV) and overall satisfaction
+
+Model can be integrated with dashboards for business analytics.
+
