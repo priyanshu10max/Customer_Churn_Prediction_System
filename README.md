@@ -30,17 +30,22 @@ Visualization: Power BI / Streamlit (optional dashboard)
 🔹 4. Project Workflow
 
 ✅ Step 1: Data Collection & Understanding
+
 ✅ Step 2: Exploratory Data Analysis (EDA)
+
 ✅ Step 3: Data Preprocessing (missing values, encoding, scaling)
+
 ✅ Step 4: Model Selection & Training
+
 ✅ Step 5: Model Evaluation (Accuracy, Precision, Recall, AUC)
+
 ✅ Step 6: Model Tuning (Hyperparameter Optimization)
+
 ✅ Step 7: Model Serialization (Pickle/Joblib)
-✅ Step 8: API Development (FastAPI)
-✅ Step 9: AWS Deployment (EC2 + Docker)
-✅ Step 10: Monitoring & Improvement
+
 
 🔹 5. Project Folder Structure
+
 customer-churn-prediction/
 │── data/
 │   └── Telco-Customer-Churn.csv
