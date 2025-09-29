@@ -44,9 +44,11 @@ Version Control: GitHub
 customer-churn-prediction/
 │── data/
 │   └── Telco-Customer-Churn.csv
+
 │── notebooks/
 │   └── eda.ipynb
 │   └── model_training.ipynb
+
 │── src/
 │   ├── data_preprocessing.py
 │   ├── train_model.py
