@@ -13,13 +13,15 @@ We’ll use the Telco Customer Churn Dataset (publicly available on Kaggle
 
 Features: Gender, SeniorCitizen, Partner, Dependents, Tenure, MonthlyCharges, TotalCharges, InternetService, Contract, PaymentMethod, etc.
 
-Target: Binary Classification (Churn
+Target: Binary Classification (Churn = Yes/No)
 
 🔹 3. Tech Stack
 
 Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost)
 
 ML Models: Logistic Regression, Random Forest, XGBoost
+
+Version Control: GitHub
 
 
 
@@ -43,26 +45,36 @@ ML Models: Logistic Regression, Random Forest, XGBoost
 🔹 5. Project Folder Structure
 
 customer-churn-prediction/
+
 │── data/
+
 │   └── Telco-Customer-Churn.csv
+
 │── notebooks/
+
 │   └── eda.ipynb
+
 │   └── model_training.ipynb
+
 │── src/
+
 │   ├── data_preprocessing.py
+
 │   ├── train_model.py
+
 │   ├── evaluate_model.py
+
 │   └── predict.py
 
 
 
 🔹 6. Business Impact from this project
 
-Early identification of potential churners
+* Early identification of potential churners
 
-Enables targeted retention campaigns → reduces revenue loss
+* Enables targeted retention campaigns → reduces revenue loss
 
-Improves customer lifetime value (CLV) and overall satisfaction
+* Improves customer lifetime value (CLV) and overall satisfaction
 
-Model can be integrated with dashboards for business analytics.
+* Model can be integrated with dashboards for business analytics.
 
