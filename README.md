@@ -41,6 +41,9 @@ Version Control: GitHub
 ✅ Step 7: Model Serialization (Pickle/Joblib)
 
 
+🔹 5. Project Folder Structure
+
+
 customer-churn-prediction/
 
 │── data/
